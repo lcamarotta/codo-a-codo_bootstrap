@@ -18,3 +18,31 @@ footer{
   min-height: 96px;
   background-image: linear-gradient(to right, #1c3643, #1e5371);
 }
+
+.dot_underline{
+  text-decoration: underline #000 dotted;
+}
+
+.btn-green-1{
+  color: white;
+  background-color: #29A744;
+  border-color: #29A744;
+}
+
+.btn-green-1:hover{
+  color: white;
+  background-color: #3ef065;
+  border-color: #3ef065;
+}
+
+.btn-green-2{
+  color: white;
+  background-color: #96C93E;
+  border-color: #96C93E;
+}
+
+.btn-green-2:hover{
+  color: white;
+  background-color: #bbf851;
+  border-color: #bbf851;
+}
