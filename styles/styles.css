@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 
 .section-1{
   height: calc(100vh - 96px);
@@ -45,4 +54,17 @@ footer{
   color: white;
   background-color: #bbf851;
   border-color: #bbf851;
+}
+
+.ticket_form_buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket_form_buttons button{
+  width: 49%;
+}
+
+.b-rad-0{
+  border-radius: 0;
 }

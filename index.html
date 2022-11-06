@@ -13,21 +13,21 @@
     <nav class="navbar navbar-dark navbar-expand-xl bg-dark">
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="./index.html">
             <img src="./img/codoacodo.png" alt="Logo" width=120 class="d-inline-block align-text-top">
           </a>
-          <a class="navbar-brand d-none d-sm-flex" href="#">Conf Bs As</a>
+          <a class="navbar-brand d-none d-sm-flex" href="./index.html">Conf Bs As</a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav px-5">
-            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-            <a class="nav-link" href="#">Los oradores</a>
-            <a class="nav-link" href="#">El Lugar y la fecha</a>
-            <a class="nav-link" href="#">Conviértete en orador</a>
-            <a class="nav-link text-success" href="#">Comprar tickets</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">La conferencia</a>
+            <a class="nav-link" href="#losOradores">Los oradores</a>
+            <a class="nav-link" href="#date_place">El Lugar y la fecha</a>
+            <a class="nav-link" href="#form_section">Conviértete en orador</a>
+            <a class="nav-link text-success" href="./pages/tickets.html">Comprar tickets</a>
           </div>
         </div>
       </div>
@@ -41,14 +41,14 @@
               <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
             </div>
             <div class="text-end py-2">
-              <button type="button" class="btn btn-outline-light m-1" >Quiero ser orador</button>
-              <button type="button" class="btn btn-green-1 m-1">Comprar tickets</button>
+              <button type="button" onclick="location.href='#form_section'" class="btn btn-outline-light m-1" >Quiero ser orador</button>
+              <button type="button" onclick="location.href='./pages/tickets.html'" class="btn btn-green-1 m-1">Comprar tickets</button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="d-flex align-items-center overflow-hidden">
+    <section id="losOradores" class="d-flex align-items-center overflow-hidden">
       <div class="container my-3">
         <div class="row justify-content-center">
           <div class="col text-center text-uppercase">
@@ -93,7 +93,7 @@
         </div>
       </div>
     </section>
-    <section class="section-3 py-3 overflow-hidden">
+    <section id="date_place" class="section-3 py-3 overflow-hidden">
       <div class="container-fluid p-0">
         <div class="row">
           <div class="col-12 col-md-6 p-0">
@@ -107,7 +107,7 @@
         </div>
       </div>
     </section>
-    <section class="py-2">
+    <section id="form_section" class="py-2">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col text-center">
