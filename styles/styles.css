@@ -16,6 +16,9 @@ body{
 .section-1{
   height: calc(100vh - 96px);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/ba1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-3 img{
@@ -67,4 +70,16 @@ footer{
 
 .b-rad-0{
   border-radius: 0;
+}
+
+.container-full-screen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 1;
 }
